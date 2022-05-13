@@ -1,0 +1,241 @@
+
+html, body, #home{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body{
+	background: url(../img/capa.png),
+	            url(../img/ruido.png),
+	            linear-gradient(50deg,#ff4169,#7c26f8);
+	background-attachment: fixed;
+	font-family: Heveltica,Arial,sans-serif;
+}
+
+.navegacao{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	}
+.navegaco-item{
+	color: white;
+}
+
+.navegaco-item:hover{
+	color:#58FA58;
+} 
+/*.active{
+  color: #58FA58;
+}*/
+.botao:hover{
+	border: none;
+	/*background: #58FA58;*/
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+   /*background-color: #58FA58;*/
+    border-radius: 0.25rem;
+}
+.divisor{
+background: white;
+width: 2px;
+margin: 12px 10px;
+}
+
+.btn-custom{
+    background: none;
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 15px;
+}
+
+.btn-roxo{
+   background: #7c35f8;
+}
+
+.btn-roxo:hover {
+   background: #6207e3;
+   color: white;
+}
+
+.btn-branco{
+
+	border:2px solid white ;
+   
+}
+
+.btn-branco:hover {
+   background-color: white;
+   color: black;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 1%;
+	padding-bottom: 40px;
+}
+
+/*capa********************/
+.capa{
+	text-align: center;
+}
+
+
+/*Estrutura conteúdos
+---------------------*/
+.caixa{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#servicos{
+	background: white;
+}
+
+#recursos h3{
+	color:#9bf0e1;
+}
+#recursos h2{
+	color:white;
+
+}
+#recursos {
+	color:white;
+
+}
+
+.albuns{
+	 padding: 10px 0;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 30px;
+}
+
+/*RODAPÉ--------------------------
+-------------------------------*/
+footer{
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+footer h4{
+	color:#919496 ;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+     text-decoration: none;
+	color: #9bf0e1;
+	font-size: 0.8em;
+}
+
+footer ul li{
+	float: right;
+}
+footer ul li{
+	list-style: none;
+	margin: 0 5px;
+}
+/*tipografia********************/
+H1{
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2{
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (min-width: 575.98px) { 
+
+       .btn-custom{
+		margin: 10px 15px;
+		
+	}
+	
+    #home a{
+		font-size: 1.5em;
+	}
+
+    h1{
+      font-size: 3em;
+    }
+ 
+ }
+
+//* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 767.98px) { 
+	
+    
+	
+}
+	
+       h1{
+      font-size: 4em;
+ }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 991.98px) { 
+     h1{
+      font-size: 5em;
+    }
+ 
+ }
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 1199.98px) { 
+   h1{
+      font-size: 6em;
+    }
+ 
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (min-width: 1399.98px) { 
+     h1{
+      font-size: 7em;
+    }
+ 
+ }
+
+/* XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width*/
+@media (max-width: 575.98px) {
+     	.btn-custom{
+		margin: 10px 15px;
+	}
+    h1{
+    	font-size: 2em;
+    }
+	#home a{
+		font-size: 0.6em;
+	}
+  
+ }
+
+ @media (max-width: 767.98px) { 
+   
+ }
